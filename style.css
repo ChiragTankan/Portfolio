@@ -5,7 +5,55 @@
         --glass: rgba(17, 25, 40, 0.75);
         --border: rgba(255, 255, 255, 0.125);
     }
+/* Hide default cursor on the whole site */
+* {
+    cursor: none !important;
+}
 
+/* The solid inner dot */
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #58a6ff; /* Matches your --primary color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none; /* Allows clicking through the cursor */
+    transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+/* The trailing outline circle */
+.cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(88, 166, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9998;
+    pointer-events: none;
+    /* This transition creates the "smooth following" effect */
+    transition: transform 0.15s ease-out, width 0.3s, height 0.3s, border 0.3s;
+}
+
+/* Style when hovering over links or buttons */
+.cursor-hover-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+
+.cursor-hover-outline {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
     * {
         margin: 0;
         padding: 0;
@@ -199,4 +247,5 @@
     .btn:hover {
         transform: scale(1.05);
         box-shadow: 0 0 20px var(--primary);
+
     }

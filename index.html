@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Tankan | 3D Full-Stack Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">CHIRAG TANKAN</div>
+        <div class="nav-links">
+            <a href="https://github.com/ChiragTankan" style="color: white; margin-left: 20px;"><i
+                    class="fab fa-github fa-lg"></i></a>
+        </div>
+        
+    </nav>
+
+    <section class="hero">
+        <h1 class="reveal">Chirag Tankan</h1>
+        <div class="typewriter" id="typewriter"></div>
+        <p class="reveal" style="max-width: 600px; margin-top: 20px;">
+            Turning complex problems into elegant code. Founder of Meerut Coders & DSA Enthusiast.
+        </p>
+        <a href="#projects" class="btn reveal">Explore My Work</a>
+    </section>
+
+    <section id="about">
+        <div class="glass-card reveal">
+            <h2>About Me</h2>
+            <p style="font-size: 1.2rem; margin-top: 20px;">
+                I'm the Community leader of <b>Meerut Coders</b>,
+                I focus on building a strong developer ecosystem. My expertise lies in Full-Stack Development
+                with Python, Java, and C++, alongside a deep passion for Data Structures and Algorithms.
+            </p>
+            <div class="skills-grid">
+                <div class="skill-item" data-tilt><i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item" data-tilt><i class="fab fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill-item" data-tilt><i class="fas fa-code"></i>
+                    <p>C++ / DSA</p>
+                </div>
+                <div class="skill-item" data-tilt><i class="fab fa-react"></i>
+                    <p>Web Dev</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="reveal" style="margin-bottom: 40px;">Top Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card reveal" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare
+                data-tilt-max-glare="0.5">
+                <div class="project-img"><i class="fas fa-robot fa-4x" style="color:var(--primary)"></i>
+
+</div>
+                <div class="project-content">
+                    <h3>AI Tools Manager
+</h3>
+                    <p>A curated collection of powerful AI tools, maintained by the community.</p>
+                    <p> <a href="https://ai-tool-collection.vercel.app/" style="color: #fff;">View </a></p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card reveal" data-tilt data-tilt-max="10">
+                <div class="project-img"><i class="fas fa-gamepad fa-4x" style="color:var(--primary)"></i></div>
+                <div class="project-content">
+                    <h3>Minesweeper 2.0</h3>
+                    <p>Modern take on the classic logic game using JavaScript.</p>
+                    <p> <a href="https://chiragtankan.github.io/Minesweeper-game_by_KSB48/" style="color: #fff;">View </a></p>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card reveal" data-tilt data-tilt-max="10">
+                <div class="project-img"><i class="fas fa-cloud-sun fa-4x" style="color:var(--primary)"></i>
+</div>
+                <div class="project-content">
+                    <h3>Weather App</h3>
+                    <p>Real time Weather Information</p>
+                    <p> <a href="https://chiragtankan.github.io/Weather-App/" style="color: #fff;">View </a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="glass-card reveal">
+            <h2>Certifications</h2>
+            <div class="cert-container">
+                <!-- Add your actual image paths here -->
+                <img src="src/MVP.png" class="cert-img" alt="Cert 1">
+                <img src="src/Gen-AI.png" class="cert-img" alt="Cert 2">
+                <img src="src/cyber.png" class="cert-img" alt="Cert 3">
+                <img src="src/GFG.png" class="cert-img" alt="Cert 4">
+                <img src="src/Hackathon.png" class="cert-img" alt="Cert 5">
+                <img src="src/Tech.png" class="cert-img" alt="Cert 6">
+                <img src="src/Microsoft.png" class="cert-img" alt="Cert 7">
+                <img src="src/neo4j.png" class="cert-img" alt="Cert 8">
+                <img src="src/AI-Sour.png" class="cert-img" alt="Cert 9">
+            </div>
+        </div>
+    </section>
+    <!-- My leetcode  -->
+    <section id="leetcode">
+        <div class="glass-card reveal">
+            <h2>LeetCode Progress</h2>
+    
+            <p style="margin:15px 0; opacity:0.8;">
+                My problem-solving journey on LeetCode.
+            </p>
+    
+            <div style="display:flex; justify-content:center; margin-top:20px;">
+                <img src="https://leetcard.jacoblin.cool/chiragtankan?theme=dark&font=Baloo" alt="LeetCode Stats"
+                    style="max-width:100%; border-radius:12px; border:1px solid var(--border);">
+            </div>
+    
+            <div style="text-align:center; margin-top:20px;">
+                <a href="https://leetcode.com/chiragtankan/" target="_blank" class="btn">
+                    View LeetCode Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- My CV -->
+<section id="resume">
+    <div class="glass-card reveal">
+        <h2>Resume</h2>
+
+        <p style="margin:15px 0; opacity:0.8;">
+            You can view my resume directly below or download it.
+        </p>
+
+        <!-- Embedded PDF -->
+        <iframe src="src/CHIRAG-CV.pdf" width="100%" height="600"
+            style="border-radius:12px; border:1px solid var(--border);">
+        </iframe>
+
+        <!-- Download Button -->
+        <a href="src/CHIRAG-CV.pdf" download class="btn">
+            Download Resume
+        </a>
+    </div>
+</section>
+
+
+    <footer style="text-align: center; padding: 50px;">
+        <footer style="text-align:center; padding:50px; border-top:1px solid var(--border);">
+            <p style="margin-bottom:15px;">
+                Let’s build something meaningful together 🚀
+            </p>
+        
+            <div style="display:flex; justify-content:center; gap:25px;">
+                <a href="mailto:chiragtankan@gmail.com" style="color:white;">
+                    <i class="fas fa-envelope fa-lg"></i>
+                </a>
+        
+                <a href="https://www.linkedin.com/in/chiragtankan" target="_blank" style="color:white;">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+        
+                <a href="https://github.com/ChiragTankan" target="_blank" style="color:white;">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+            </div>
+        
+            <p style="margin-top:25px; opacity:0.6;">
+                © 2026 Chirag Tankan · Crafting Code, Creating Worlds 🚀
+            </p>
+        </footer>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+    <script src=js.js>
+    </script>
+</body>
+
+</html>

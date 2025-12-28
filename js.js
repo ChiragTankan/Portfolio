@@ -6,7 +6,38 @@
         renderer.setPixelRatio(window.devicePixelRatio);
         renderer.setSize(window.innerWidth, window.innerHeight);
         camera.position.setZ(30);
+        // Custome Cursor
+        const cursorDot = document.querySelector(".cursor-dot");
+const cursorOutline = document.querySelector(".cursor-outline");
 
+window.addEventListener("mousemove", function (e) {
+    const posX = e.clientX;
+    const posY = e.clientY;
+
+    // Standard positioning
+    cursorDot.style.left = `${posX}px`;
+    cursorDot.style.top = `${posY}px`;
+
+    // Outline follows with a slight delay for a smooth feel
+    cursorOutline.animate({
+        left: `${posX}px`,
+        top: `${posY}px`
+    }, { duration: 500, fill: "forwards" });
+});
+
+// Add hover effects for all interactive elements
+const interactives = document.querySelectorAll('a, .btn, .skill-item, .project-card, .cert-img');
+
+interactives.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+        cursorDot.classList.add('cursor-hover-dot');
+        cursorOutline.classList.add('cursor-hover-outline');
+    });
+    el.addEventListener('mouseleave', () => {
+        cursorDot.classList.remove('cursor-hover-dot');
+        cursorOutline.classList.remove('cursor-hover-outline');
+    });
+});
         // Add 3D Particles
         const particlesGeometry = new THREE.BufferGeometry();
         const particlesCount = 5000;
@@ -69,3 +100,4 @@
         }, { threshold: 0.1 });
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+

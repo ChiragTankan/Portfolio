@@ -9,7 +9,18 @@
 * {
     cursor: none !important;
 }
-
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* This creates a vignette effect so the edges are darker than the center */
+    background: radial-gradient(circle at center, transparent 0%, var(--bg) 90%);
+    pointer-events: none;
+    z-index: -1;
+}
 /* The solid inner dot */
 .cursor-dot {
     width: 8px;
@@ -249,3 +260,4 @@
         box-shadow: 0 0 20px var(--primary);
 
     }
+

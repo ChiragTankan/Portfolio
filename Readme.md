@@ -37,8 +37,8 @@ Here are some featured projects shown on the portfolio:
 | Project | Description | Live Preview |
 |---------|-------------|---------------|
 | **AI Tools Manager** | Curated collection of powerful AI tools maintained by the community | [Live Demo](https://ai-tool-collection.vercel.app) |
-| **Minesweeper 2.0** | Modern take on the classic logic game using JavaScript | *Link on portfolio* |
-| **Weather App** | Real‑time weather information interface | *Link on portfolio* |
+| **Minesweeper 2.0** | Modern take on the classic logic game using JavaScript | *https://chiragtankan.github.io/Minesweeper-game_by_KSB48/* |
+| **Weather App** | Real‑time weather information interface | *https://chiragtankan.github.io/Weather-App/* |
 
 > Click on each project button on the site to explore live demos.
 
@@ -66,9 +66,9 @@ You can view or download my latest resume directly from the **Resume** section o
 
 Let’s build something meaningful together:
 
-- 💼 **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/your-profile/)  
+- 💼 **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/chiragtankan/)  
 - 🐱 **GitHub:** [chiragtankan](https://github.com/chiragtankan)  
-- 📧 **Email:** your.email@example.com
+- 📧 **Email:** chiragtankan@gmail.com
 
 > Icons on the portfolio link to these profiles.
 

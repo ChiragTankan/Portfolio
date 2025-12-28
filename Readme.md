@@ -37,8 +37,8 @@ Here are some featured projects shown on the portfolio:
 | Project | Description | Live Preview |
 |---------|-------------|---------------|
 | **AI Tools Manager** | Curated collection of powerful AI tools maintained by the community | [Live Demo](https://ai-tool-collection.vercel.app) |
-| **Minesweeper 2.0** | Modern take on the classic logic game using JavaScript | *https://chiragtankan.github.io/Minesweeper-game_by_KSB48/* |
-| **Weather App** | Real‑time weather information interface | *https://chiragtankan.github.io/Weather-App/* |
+| **Minesweeper 2.0** | Modern take on the classic logic game using JavaScript |  [Live Demo](https://chiragtankan.github.io/Minesweeper-game_by_KSB48/) |
+| **Weather App** | Real‑time weather information interface |  [Live Demo](https://chiragtankan.github.io/Weather-App/) |
 
 > Click on each project button on the site to explore live demos.
 

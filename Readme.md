@@ -1,4 +1,4 @@
-# 🧠 Chirag Tankan — 3D Full‑Stack Developer Portfolio
+# 🚀 Chirag Tankan — 3D Full‑Stack Developer Portfolio
 
 Welcome to my personal portfolio! This site highlights who I am, what I’ve built, and how to connect with me.
 
